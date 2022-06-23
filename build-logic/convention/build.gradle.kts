@@ -54,5 +54,9 @@ gradlePlugin {
             id = "shivamogga.spotless"
             implementationClass = "SpotlessConventionPlugin"
         }
+        register("mapPlatformSecret"){
+            id = "shivamogga.map.secret"
+            implementationClass = "MapPlatformsSecretConventionPlugin"
+        }
     }
 }

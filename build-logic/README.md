@@ -29,12 +29,13 @@ setup.
 
 Current list of convention plugins:
 
-- [`nowinandroid.spotless`](convention/src/main/kotlin/SpotlessConventionPlugin.kt):
+- [`shivamogga.spotless`](convention/src/main/kotlin/SpotlessConventionPlugin.kt):
   Configures spotless. 
-- [`nowinandroid.android.application`](convention/src/main/kotlin/AndroidApplicationConventionPlugin.kt),
-  [`nowinandroid.android.library`](convention/src/main/kotlin/AndroidLibraryConventionPlugin.kt),
-  [`nowinandroid.android.test`](convention/src/main/kotlin/AndroidTestConventionPlugin.kt):
+- [`shivamogga.android.application`](convention/src/main/kotlin/AndroidApplicationConventionPlugin.kt),
+  [`shivamogga.android.library`](convention/src/main/kotlin/AndroidLibraryConventionPlugin.kt),
+  [`shivamogga.android.test`](convention/src/main/kotlin/AndroidTestConventionPlugin.kt):
   Configures common Android and Kotlin options.
-- [`nowinandroid.android.application.compose`](convention/src/main/kotlin/AndroidApplicationComposeConventionPlugin.kt),
-  [`nowinandroid.android.library.compose`](convention/src/main/kotlin/AndroidLibraryComposeConventionPlugin.kt):
-  Configures Jetpack Compose options
+- [`shivamogga.android.application.compose`](convention/src/main/kotlin/AndroidApplicationComposeConventionPlugin.kt),
+  [`shivamogga.android.library.compose`](convention/src/main/kotlin/AndroidLibraryComposeConventionPlugin.kt):
+  Configures Jetpack Compose options.
+-  [`shivamogga.map.secret`](convention/src/main/kotlin/MapPlatformsSecretConventionPlugin.kt):
