@@ -23,7 +23,7 @@ fun HomeScreen(){
             modifier = Modifier.fillMaxSize(),
             color = MaterialTheme.colorScheme.background
         ) {
-
+            MapScreen()
         }
     }
 }
